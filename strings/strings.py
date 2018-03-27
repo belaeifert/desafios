@@ -1,6 +1,18 @@
+'''
+def writefile():
+    import os
 
+    output_parte1 = "output_parte1_novo.txt"
+    output_parte2 = "output_parte2.txt"
+    
+    arquivo = open('output_parte1_novo.txt', 'w')
+    frase = output()
+    arquivo.write('ola')
+    arquivo.close()
+    writetofile()
+'''
 
-def output(): #Desafio 1
+def output():#frase): #Desafio 1
     frase = 'In the beginning God created the heavens and the earth. Now the earth was formless and empty, darkness was over the surface of the deep, and the Spirit of God was hovering over the waters.'
     vetor = frase.split()
     linha, texto = "", ""
