@@ -50,8 +50,6 @@ class DesafioSpider(scrapy.Spider):
             arquivo.write(str(self.lista_telegram[item]) + '\n')
             arquivo.close()
 
-    def getLista():
-        return self.lista
 
     
     
