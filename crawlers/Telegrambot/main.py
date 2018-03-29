@@ -13,14 +13,11 @@ NadaPraFazer = CommandHandler('NadaPraFazer', NadaPraFazer)
 dispatcher.add_handler(NadaPraFazer)
 
 def NadaPraFazer_handler(bot, update):
-    """
-        Shows an welcome message and help info about the available commands.
-    """
+
     me = bot.get_me()
 
     msg = '[gatos,fofinhos,sorte]'
 
-    # Send the message with menu
+    # Send the message
     bot.send_message(chat_id=update.message.chat_id,
-                     text=msg,
-                     reply_markup=reply_kb_markup)
+                     text=msg)
